@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "LoRaArgonTX"
+		},
+		{
+			"name": "LoRaXiaoRX",
+			"path": "LoRaXiaoRX"
+		}
+	],
+	"settings": {
+		"extensions.ignoreRecommendations": true,
+		"cortex-debug.openocdPath": "${command:particle.getDebuggerOpenocdPath}",
+		"files.associations": {
+			"*.ino": "cpp",
+			"string": "cpp"
+		}
+	}
+}
